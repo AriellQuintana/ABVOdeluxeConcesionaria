@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://recursos.estaticosmf.com/autotrade/images/slide-home/2.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: aquamarine;
+    padding: 15px;
+}
+ul li{
+    display: inline-block;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+section{
+    background-color: aliceblue;
+    display: flexbox;
+    -ms-flex-align: center;
+}
+
+footer{
+    background-color: aliceblue;
+}
+
+.flex-container{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-template-columns: auto auto;
+}
+
+.caja{
+    border: 1px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+}
+
+.opiniones{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    background-color: azure;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+    margin: 40px;
+}
+
+.primerasImagenes{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+
+.julian{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 70px;
+}
+
+.max{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 70px;
+}
+
+.anya{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 70px;
+}
+
+.pagani{
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    width: 250px;
+    height: 250px;
+}
+
+.porsche{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+}
+
+.regera{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+}
+
+.bugatti{
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    width: 250px;
+    height: 250px;
+}
+.lambo{
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    width: 250px;
+    height: 250px;
+}
+
+.rb19Img{
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    width: 250px;
+    height: 250px;
+}
+
+.lmp1Img{
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    width: 250px;
+    height: 250px;
+}
+
+.yarisImg{
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    width: 250px;
+    height: 250px;
+}
+
+.concesionario3{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 70%;
+    }
+
+.concesionario5{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+
+.primerParrafo{
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+}
+
+.segundoParrafo{
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+}
+
+.stock{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+.stockEspeciales{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+.primerParrafoEmpresa{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.segundoParrafoEmpresa{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.tercerParrafoEmpresa{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.tituloServicios{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.primerParrafoServicios{
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+}
+
+.segundoParrafoServicios{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.contacto{
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+}
