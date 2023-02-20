@@ -5,31 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <title>ABVO Deluxe</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">ABVO Deluxe</a></li>
-                <li><a href="./sections/vehiculos.html">vehiculos</a></li>
-                <li><a href="./sections/especiales.html">vehiculos especiales</a></li>
-                <li><a href="./sections/servicios.html">servicios</a></li>
-                <li><a href="./sections/empresa.html">empresa</a></li>
-                <li><a href="./sections/contacto.html">contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">ABVOdeluxe</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./sections/vehiculos.html">Vechiculos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./sections/especiales.html">Vehiculos
+                                Especiales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./sections/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./sections/empresa.html">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./sections/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-        <section class="primerParrafo">
-            <h1>CONCESIONARIO DE AUTOS DE LUJO</h1>
-            <h2>Elegí el que quieras</h2>
-            <div class="primerasImagenes">
-                <img src="./img/imagen-concesionario1.jpg" alt="imagen-concesionario1">
-                <img src="./img/imagen-concesionario2.jpg" alt="imagen-concesionario2">
-            </div>
-        </section>
+    <section class="primerParrafo">
+        <h1>CONCESIONARIO DE AUTOS DE LUJO</h1>
+        <h2>Elegí el que quieras</h2>
+        <div class="primerasImagenes">
+            <img src="./img/imagen-concesionario1.jpg" alt="imagen-concesionario1">
+            <img src="./img/imagen-concesionario2.jpg" alt="imagen-concesionario2">
+        </div>
+    </section>
     <section class="segundoParrafo">
         <h2>TENEMOS LO QUE PIDAS</h2>
         <h3>Stock de 10 coches</h3>
@@ -105,6 +132,9 @@
                 target="_blank">WhatsApp</a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
