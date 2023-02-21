@@ -31,14 +31,13 @@ section{
     -ms-flex-align: center;
 }
 
-footer{
-    background-image: linear-gradient(to right, #7FFFD4 0%, #34e4a9 100%);
-    padding: 15px;
+footer{background-image: linear-gradient(to right, #7FFFD4 0%, #34e4a9 100%);
+}
     .navbar-brand{color: black!important}
     .nav-link{color: black!important}
     .nav-link:hover{color: white!important}
-    
-}
+
+
 
 .flex-container{
     display: flex;
@@ -62,7 +61,6 @@ footer{
 
 .opiniones{
     display: flex;
-    padding: 20px;
     flex-direction: row;
     background-color: azure;
     flex-wrap: wrap;
