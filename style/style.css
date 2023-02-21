@@ -33,12 +33,10 @@ section{
 
 footer{
     background-image: linear-gradient(to right, #7FFFD4 0%, #34e4a9 100%);
-    padding: 15px;
+    padding: 15px;}
     .navbar-brand{color: black!important}
     .nav-link{color: black!important}
     .nav-link:hover{color: white!important}
-    
-}
 
 .flex-container{
     display: flex;
