@@ -16,18 +16,17 @@ background-image: linear-gradient(to right, #7FFFD4 0%, #34e4a9 100%);
 .navbar-brand{color: black!important}
 .nav-link{color: black!important}
 .nav-link:hover{color: white!important}
-ul li{
-    display: inline-block;
-}
+
 footer{
     font-family: 'Roboto', sans-serif;
     background-color: aquamarine;
-    padding: 15px;
+    justify-content: center;
+    display: flex;
+    columns: auto auto;
 }
 
 section{
     background-color: aliceblue;
-    display: flexbox;
     -ms-flex-align: center;
 }
 
@@ -50,12 +49,13 @@ footer{
     border: 1px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    width: 400px;
-    height: 300px;
+    width: auto;
+    height: auto;
     text-align: center;
     margin: 5px;
     font-family: 'Roboto', sans-serif;
-    padding: 40px;
+    padding: 30px;
+    border: 3px;
 }
 
 .opiniones{
@@ -143,30 +143,6 @@ footer{
     height: 250px;
 }
 
-.rb19Img{
-    display: flex;
-    justify-content: left;
-    text-align: right;
-    width: 250px;
-    height: 250px;
-}
-
-.lmp1Img{
-    display: flex;
-    justify-content: left;
-    text-align: right;
-    width: 250px;
-    height: 250px;
-}
-
-.yarisImg{
-    display: flex;
-    justify-content: left;
-    text-align: right;
-    width: 250px;
-    height: 250px;
-}
-
 .concesionario3{
         display: flex;
         text-align: center;
@@ -205,6 +181,14 @@ footer{
     padding: 5px;
 }
 
+.imagenRedBull{
+    width: auto;
+    height: auto;
+    border: 30px;
+    justify-content: center;
+
+}
+
 .primerParrafoEmpresa{
     font-family: 'Roboto', sans-serif;
     padding: 10px;
@@ -221,8 +205,11 @@ footer{
 }
 
 .tituloServicios{
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
+    justify-content: center;
 }
 
 .primerParrafoServicios{
@@ -240,4 +227,46 @@ footer{
     padding: 30px;
     margin: 30px;
     justify-content: center;
+}
+
+@media (min-width:360px) and (max-width:768px){
+
+    .flex-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .caja{
+        max-width: auto;
+        max-height: auto;
+        padding: auto;
+        border: 3px;
+    }
+
+    .imagenRedBull{
+        border: 4px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+    .flex-container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .caja{
+        max-width: auto;
+        max-height: 300px;
+        padding: auto;
+        border: 3px;
+    }
+
+    .imagenRedBull{
+        border: 4px;
+        width: auto;
+        height: auto;
+    }
 }
