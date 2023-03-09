@@ -3,6 +3,16 @@
     padding: 20px;
     flex-direction: row;
     flex-wrap: nowrap;
+
+    @include mobile {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    @include tablet {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
 
 .caja{
@@ -16,4 +26,18 @@
     font-family: 'Roboto', sans-serif;
     padding: 30px;
     border: 3px;
+
+    @include mobile {
+        max-width: auto;
+        max-height: auto;
+        padding: auto;
+        border: 3px;
+    }
+
+@include tablet {
+    max-width: auto;
+    max-height: auto;
+    padding: auto;
+    border: 3px;
+}
 }

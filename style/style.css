@@ -45,6 +45,18 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+@media screen and (max-width: 836px) and (min-width: 360px) {
+  .flex-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 960px) and (min-width: 837px) {
+  .flex-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
 
 .caja {
   border: 1px;
@@ -57,6 +69,22 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 30px;
   border: 3px;
+}
+@media screen and (max-width: 836px) and (min-width: 360px) {
+  .caja {
+    max-width: auto;
+    max-height: auto;
+    padding: auto;
+    border: 3px;
+  }
+}
+@media screen and (max-width: 960px) and (min-width: 837px) {
+  .caja {
+    max-width: auto;
+    max-height: auto;
+    padding: auto;
+    border: 3px;
+  }
 }
 
 .primerasImagenes {
@@ -177,6 +205,13 @@ body {
   height: 70%;
 }
 
+.imagenRedBull {
+  width: auto;
+  height: auto;
+  border: 30px;
+  justify-content: center;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
 }
@@ -185,28 +220,72 @@ h2 {
   font-family: "Roboto", sans-serif;
   height: auto;
   width: auto;
-  text-align: center;
+}
+@media screen and (max-width: 960px) and (min-width: 837px) {
+  h2 {
+    height: auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 836px) and (min-width: 360px) {
+  h2 {
+    height: auto;
+    width: auto;
+  }
 }
 
 h3 {
   font-family: "Roboto", sans-serif;
   height: auto;
   width: auto;
-  text-align: center;
+}
+@media screen and (max-width: 960px) and (min-width: 837px) {
+  h3 {
+    height: auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 836px) and (min-width: 360px) {
+  h3 {
+    height: auto;
+    width: auto;
+  }
 }
 
 h4 {
   font-family: "Roboto", sans-serif;
   height: auto;
   width: auto;
-  text-align: center;
+}
+@media screen and (max-width: 960px) and (min-width: 837px) {
+  h4 {
+    height: auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 836px) and (min-width: 360px) {
+  h4 {
+    height: auto;
+    width: auto;
+  }
 }
 
 p {
   font-family: "Roboto", sans-serif;
   height: auto;
   width: auto;
-  text-align: center;
+}
+@media screen and (max-width: 960px) and (min-width: 837px) {
+  p {
+    height: auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 836px) and (min-width: 360px) {
+  p {
+    height: auto;
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
