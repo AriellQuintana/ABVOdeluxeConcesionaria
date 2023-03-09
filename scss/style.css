@@ -19,7 +19,8 @@ footer {
   background-image: linear-gradient(to right, #7FFFD4 0%, #34e4a9 100%);
   padding: 15px;
   display: flex;
-  columns: auto auto;
+  -moz-columns: auto auto;
+       columns: auto auto;
 }
 
 .navbar-brand {
@@ -44,14 +45,16 @@ body {
   padding: 20px;
   flex-direction: row;
   flex-wrap: nowrap;
+  -moz-columns: auto auto;
+       columns: auto auto;
 }
 
 .caja {
   border: 1px;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  width: 400px;
-  height: 400px;
+  width: auto;
+  height: auto;
   text-align: center;
   margin: 5px;
   font-family: "Roboto", sans-serif;
@@ -175,38 +178,4 @@ body {
   justify-content: center;
   width: 100%;
   height: 70%;
-}
-
-h1 {
-  font-family: "Roboto", sans-serif;
-}
-
-h2 {
-  font-family: "Roboto", sans-serif;
-  height: auto;
-  width: auto;
-  text-align: center;
-}
-
-h3 {
-  font-family: "Roboto", sans-serif;
-  height: auto;
-  width: auto;
-  text-align: center;
-}
-
-h4 {
-  font-family: "Roboto", sans-serif;
-  height: auto;
-  width: auto;
-  text-align: center;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  height: auto;
-  width: auto;
-  text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
